@@ -93,12 +93,12 @@ To help keep her spirits up, Prajna decided to distract herself by applying comp
 The following directory is our structure of our project:
 - $ tree --dirsfirst --filelimit 10
 - .
-├── dataset
-│   ├── with_mask [690 entries]
-│   └── without_mask [686 entries]
-├── examples
-│   ├── example_01.png
-│   ├── example_02.png
+- ├── dataset
+- │   ├── with_mask [690 entries]
+- │   └── without_mask [686 entries]
+- ├── examples
+- │   ├── example_01.png
+- │   ├── example_02.png
 - │   └── example_03.png
 - ├── face_detector
 - │   ├── deploy.prototxt
@@ -132,13 +132,13 @@ We are now ready to train our face mask detector using Keras, TensorFlow, and De
 From there, open up a terminal, and execute the following command:
 
 $ python train_mask_detector.py --dataset dataset
-[INFO] loading images...
-[INFO] compiling model...
+- [INFO] loading images...
+- [INFO] compiling model...
 - [INFO] training head...
 - Train for 34 steps, validate on 276 samples
 - Epoch 1/20
-34/34 [==============================] - 30s 885ms/step - loss: 0.6431 - accuracy: 0.6676 - val_loss: 0.3696 - val_accuracy: 0.8242
-Epoch 2/20
+- 34/34 [==============================] - 30s 885ms/step - loss: 0.6431 - accuracy: 0.6676 - val_loss: 0.3696 - val_accuracy: 0.8242
+- Epoch 2/20
 - 34/34 [==============================] - 29s 853ms/step - loss: 0.3507 - accuracy: 0.8567 - val_loss: 0.1964 - val_accuracy: 0.9375
 - Epoch 3/20
 - 34/34 [==============================] - 27s 800ms/step - loss: 0.2792 - accuracy: 0.8820 - val_loss: 0.1383 - val_accuracy: 0.9531

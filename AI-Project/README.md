@@ -93,12 +93,12 @@ To help keep her spirits up, Prajna decided to distract herself by applying comp
 The following directory is our structure of our project:
 - $ tree --dirsfirst --filelimit 10
 - .
-- ├── dataset
-- │   ├── with_mask [690 entries]
-- │   └── without_mask [686 entries]
-- ├── examples
-- │   ├── example_01.png
-- │   ├── example_02.png
+├── dataset
+│   ├── with_mask [690 entries]
+│   └── without_mask [686 entries]
+├── examples
+│   ├── example_01.png
+│   ├── example_02.png
 - │   └── example_03.png
 - ├── face_detector
 - │   ├── deploy.prototxt

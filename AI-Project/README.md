@@ -168,9 +168,9 @@ $ python train_mask_detector.py --dataset dataset
 |weighted avg|0.99|0.99|0.99|276|
 
 
-![Figure 4](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detector_plot.png)
+![Figure 4](https://github.com/osgoh88/Artificial-Intelligence-Project/blob/main/plot.png)
 
-Figure 4: Figure 10: COVID-19 face mask detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
+Figure 4: COVID-19 face mask detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
 
 As you can see, we are obtaining ~99% accuracy on our test set.
 
@@ -178,6 +178,10 @@ Looking at Figure 4, we can see there are little signs of overfitting, with the 
 
 Given these results, we are hopeful that our model will generalize well to images outside our training and testing set.
 
+
+![Figure 5](https://github.com/osgoh88/Artificial-Intelligence-Project/blob/main/AI-Project/python%20code%20for%20maskdetction.JPG)
+
+Figure 5 shown souce of the Mask Detection
 
 ## F.  RESULT AND CONCLUSION
 
